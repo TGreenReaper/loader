@@ -119,7 +119,7 @@ local function JWIUIHS_fake_script() -- TextLabel_2.LocalScript
 		script.Parent.Text = "1"
 		task.wait(1)
 		script.Parent.Parent.Visible = false
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
 	
 	else 
 		script.Parent.Text = "Script not found."
