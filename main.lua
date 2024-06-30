@@ -57,7 +57,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function CEJUXCH_fake_script() -- Main.LocalScript 
+local function ADHJFDY_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local ts = game:GetService("TweenService")
@@ -72,8 +72,8 @@ local function CEJUXCH_fake_script() -- Main.LocalScript
 	
 	
 end
-coroutine.wrap(CEJUXCH_fake_script)()
-local function LJZF_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(ADHJFDY_fake_script)()
+local function CKEDBUO_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	if game.PlaceId == 2753915549  or game.PlaceId == 7449423635 then 
@@ -106,7 +106,7 @@ local function LJZF_fake_script() -- TextLabel_2.LocalScript
 		task.wait(1)
 		script.Parent.Parent.Visible = false
 		
-	elseif game.PlaceId == 4616652839 then
+	elseif game.PlaceId == 4616652839 or game.PlaceId == 4601350214
 		task.wait(2)
 		script.Parent.Text = "Found Shindo Life Script..."
 		task.wait(1)
@@ -126,4 +126,4 @@ local function LJZF_fake_script() -- TextLabel_2.LocalScript
 	end
 	
 end
-coroutine.wrap(LJZF_fake_script)()
+coroutine.wrap(CKEDBUO_fake_script)()
