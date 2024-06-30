@@ -1,4 +1,5 @@
 
+
 local HUI = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -56,7 +57,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function OUPQDP_fake_script() -- Main.LocalScript 
+local function JUEWMBL_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local ts = game:GetService("TweenService")
@@ -70,20 +71,9 @@ local function OUPQDP_fake_script() -- Main.LocalScript
 	fade:Play()
 	
 	
-	UIS.InputBegan:Connect((function(input, gameProcessedEvent)
-		if input.KeyCode == Enum.KeyCode.RightControl  then
-			vis = not vis
-				if vis == true then
-					script.Parent.Visible = true
-				else
-					script.Parent.Visible = false
-			end
-			
-		end
-	end))
 end
-coroutine.wrap(OUPQDP_fake_script)()
-local function OJBDAH_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(JUEWMBL_fake_script)()
+local function TJBVF_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	if game.PlaceId == 2753915549  or 7449423635 then 
@@ -120,4 +110,4 @@ local function OJBDAH_fake_script() -- TextLabel_2.LocalScript
 	end
 	
 end
-coroutine.wrap(OJBDAH_fake_script)()
+coroutine.wrap(TJBVF_fake_script)()
