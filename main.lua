@@ -57,7 +57,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function JUEWMBL_fake_script() -- Main.LocalScript 
+local function JNQPYRG_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local ts = game:GetService("TweenService")
@@ -72,8 +72,8 @@ local function JUEWMBL_fake_script() -- Main.LocalScript
 	
 	
 end
-coroutine.wrap(JUEWMBL_fake_script)()
-local function TJBVF_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(JNQPYRG_fake_script)()
+local function JWIUIHS_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	if game.PlaceId == 2753915549  or 7449423635 then 
@@ -94,7 +94,7 @@ local function TJBVF_fake_script() -- TextLabel_2.LocalScript
 		script.Parent.Parent.Visible = false
 	elseif game.PlaceId == 4490140733 then
 		task.wait(2)
-		script.Parent.Text = "Found My Resteraunt Script..."
+		script.Parent.Text = "Found My Restaurant Script..."
 		task.wait(1)
 		script.Parent.Text = "Launching in"
 		task.wait(.5)
@@ -105,9 +105,25 @@ local function TJBVF_fake_script() -- TextLabel_2.LocalScript
 		script.Parent.Text = "1"
 		task.wait(1)
 		script.Parent.Parent.Visible = false
+		
+	elseif game.PlaceId == 4616652839 then
+		task.wait(2)
+		script.Parent.Text = "Found Shindo Life Script..."
+		task.wait(1)
+		script.Parent.Text = "Launching in"
+		task.wait(.5)
+		script.Parent.Text = "3"
+		task.wait(1)
+		script.Parent.Text = "2"
+		task.wait(1)
+		script.Parent.Text = "1"
+		task.wait(1)
+		script.Parent.Parent.Visible = false
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+	
 	else 
 		script.Parent.Text = "Script not found."
 	end
 	
 end
-coroutine.wrap(TJBVF_fake_script)()
+coroutine.wrap(JWIUIHS_fake_script)()
