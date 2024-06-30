@@ -57,7 +57,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function JNQPYRG_fake_script() -- Main.LocalScript 
+local function CEJUXCH_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local ts = game:GetService("TweenService")
@@ -72,11 +72,11 @@ local function JNQPYRG_fake_script() -- Main.LocalScript
 	
 	
 end
-coroutine.wrap(JNQPYRG_fake_script)()
-local function JWIUIHS_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(CEJUXCH_fake_script)()
+local function LJZF_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
-	if game.PlaceId == 2753915549  or 7449423635 then 
+	if game.PlaceId == 2753915549  or game.PlaceId == 7449423635 then 
 		task.wait(2)
 		script.Parent.Text = "Found Blox Fruits Script..."
 		task.wait(1)
@@ -126,4 +126,4 @@ local function JWIUIHS_fake_script() -- TextLabel_2.LocalScript
 	end
 	
 end
-coroutine.wrap(JWIUIHS_fake_script)()
+coroutine.wrap(LJZF_fake_script)()
