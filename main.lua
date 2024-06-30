@@ -106,7 +106,7 @@ local function CKEDBUO_fake_script() -- TextLabel_2.LocalScript
 		task.wait(1)
 		script.Parent.Parent.Visible = false
 		
-	elseif game.PlaceId == 4616652839 or game.PlaceId == 4601350214
+	elseif game.PlaceId == 4616652839 or game.PlaceId == 4601350214 then
 		task.wait(2)
 		script.Parent.Text = "Found Shindo Life Script..."
 		task.wait(1)
