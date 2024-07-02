@@ -89,7 +89,7 @@ local function POQAQZ_fake_script() -- TextLabel_2.LocalScript
 		script.Parent.Text = "1"
 		task.wait(1)
 		getgenv().Fix_Lag = true
-		getgenv().Auto_Execute = false
+		getgenv().Auto_Execute = true
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/V3PRO/main/HiruHub.lua"))()
 		script.Parent.Parent.Visible = false
 	elseif game.PlaceId == 4490140733 then
