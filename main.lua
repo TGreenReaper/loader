@@ -57,7 +57,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function ADHJFDY_fake_script() -- Main.LocalScript 
+local function SWDAZS_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local ts = game:GetService("TweenService")
@@ -72,11 +72,11 @@ local function ADHJFDY_fake_script() -- Main.LocalScript
 	
 	
 end
-coroutine.wrap(ADHJFDY_fake_script)()
-local function CKEDBUO_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(SWDAZS_fake_script)()
+local function POQAQZ_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
-	if game.PlaceId == 2753915549  or game.PlaceId == 7449423635 then 
+	if game.PlaceId == 2753915549  or game.PlaceId == 7449423635 or game.PlaceId == 4442272183 then 
 		task.wait(2)
 		script.Parent.Text = "Found Blox Fruits Script..."
 		task.wait(1)
@@ -123,7 +123,9 @@ local function CKEDBUO_fake_script() -- TextLabel_2.LocalScript
 	
 	else 
 		script.Parent.Text = "Script not found."
+		task.wait(5)
+		script.Parent.Parent.Visible = false
 	end
 	
 end
-coroutine.wrap(CKEDBUO_fake_script)()
+coroutine.wrap(POQAQZ_fake_script)()
